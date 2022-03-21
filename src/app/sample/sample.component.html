@@ -1,0 +1,9 @@
+<h3 *ngIf="name;  else noNameBlock">Hello {{name}}</h3>
+<ng-template #noNameBlock>
+    <h3>HELLO FOLKS</h3>
+</ng-template>
+<p *ngIf="age">Age: {{age}}</p>
+<p *ngIf="loc">Location : {{loc}}</p>
+
+
+
